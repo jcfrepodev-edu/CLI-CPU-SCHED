@@ -1,11 +1,9 @@
 # Platform Management & Diagnostic Toolkit
 
-![Main menu of the Platform Management & Diagnostic Toolkit](menu-screenshot.png)
+<img width="841" height="382" alt="image" src="https://github.com/user-attachments/assets/410b3f64-2780-4033-98f6-80bb85567541" />
+
 
 A menu-driven command-line toolkit written in Windows Batch. It checks network settings, tests connectivity, lists running processes, saves a system diagnostic report to a log file, and includes a CPU scheduling simulator (FCFS vs. non-preemptive SJF).
-
-> Course project for **[COURSE NAME / CODE]**, submitted to **[PROFESSOR NAME]**.
-
 ---
 
 ## Features
@@ -26,17 +24,19 @@ A menu-driven command-line toolkit written in Windows Batch. It checks network s
 
 ## Getting Started
 
-1. Download or clone this repository:
+1. Download the bat file or clone this repository:
    ```
-   git clone https://github.com/<your-username>/<your-repo>.git
+   git clone https://github.com/<your-username>/<repo>.git
    ```
 2. Open the project folder in File Explorer.
 3. Double-click `CLI_CPUSCHEDULING.bat`.
+4. To make things easier create a folder on Desktop, move the `CLI_CPUSCHEDULING.bat` in the folder you created.
 
-Or run it from Command Prompt:
+and run it from Command Prompt:
 
 ```
-cd /d "path\to\the\project\folder"
+cd Desktop"
+cd FolderName
 CLI_CPUSCHEDULING.bat
 ```
 
@@ -98,16 +98,6 @@ Workload used in the simulator:
 
 **Conclusion:** SJF lowers both average waiting time and average turnaround time by 1.00 ms for this workload. The trade-off is that longer processes can wait longer when shorter jobs keep arriving.
 
-## Project Structure
-
-```
-.
-|-- CLI_CPUSCHEDULING.bat   # the whole toolkit
-|-- README.md
-|-- menu-screenshot.png     # screenshot shown at the top of this README
-`-- .gitattributes          # keeps Windows line endings intact
-```
-
 ## Team
 
 | Member | Contribution |
@@ -118,6 +108,4 @@ Workload used in the simulator:
 | Ryan | FCFS section of the simulator |
 | Joshua | SJF section of the simulator |
 
-## License
-
-This project was made for educational purposes. Add a license here if you want others to reuse it (for example MIT).
+## NOTE: This project was made for educational purposes.
